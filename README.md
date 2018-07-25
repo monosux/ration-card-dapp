@@ -4,7 +4,7 @@ It's funny project shows how the Ethereum network can be used to provide fairly 
 
 You can find more about ration cards on Wikipedia: [Ration Card](https://en.wikipedia.org/wiki/Ration_stamp)
 
-Demo running on the Ropsten network: [ETH Ration Card System]()
+Demo running on the Ropsten network: [ETH Ration Card System](https://monosux.github.io/ration-card-dapp/)
 
 ## Setup
 
