@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+body {
+    background-color: #a7a265;
+    padding: 30px;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Monoton', cursive;
+    color: #fff;
+}
+
+.bordered-block {
+    border: 6px solid #fff;
+    padding: 10px 10px 0;
+    font-size: 12px;
+}
+
+.dark-block {
+    padding: 16px;
+    background-color: #888241;
+}
+
+.product {
+    width: 73px;
+    height: 73px;
+    background-image: url("../images/products.png");
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+
+.product.product_0 {
+    background-position: 0 0;
+}
+
+.product.product_1 {
+    background-position: 0 -73px;
+}
+
+.product.product_2 {
+    background-position: 0 -146px;
+}
+
+.small-product {
+    width: 35px;
+    height: 35px;
+    background-image: url("../images/products_small.png");
+    background-repeat: no-repeat;
+    margin: 10px auto;
+}
+
+.small-product.small-product_0 {
+    background-position: 0 0;
+}
+
+.small-product.small-product_1 {
+    background-position: 0 -35px;
+}
+
+.small-product.small-product_2 {
+    background-position: 0 -70px;
+}

@@ -1,0 +1,25 @@
+{
+	"name": "ration-card-dapp",
+	"version": "1.0.0",
+	"private": true,
+	"homepage": "https://monosux.github.io/ration-card-dapp",
+	"dependencies": {
+		"bootstrap": "^4.1.2",
+		"drizzle": "^1.2.2",
+		"drizzle-react": "^1.1.1",
+		"drizzle-react-components": "^1.1.0",
+		"gh-pages": "^1.2.0",
+		"openzeppelin-solidity": "^1.11.0",
+		"react": "^16.4.1",
+		"react-app-rewired": "^1.5.2",
+		"react-dom": "^16.4.1",
+		"react-scripts": "^1.1.4",
+		"truffle-hdwallet-provider": "^0.0.5"
+	},
+	"scripts": {
+		"start": "react-app-rewired start --config-overrides settings/start.js",
+		"build": "webpack --config settings/build.js --progress",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build/app"
+	}
+}
